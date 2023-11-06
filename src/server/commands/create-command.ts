@@ -5,6 +5,7 @@ import { getTextChatCommands } from "./utils";
 const ADMINS = new ReadonlySet([
 	48203430, // @LITTENSY
 	96035249, // @NeoInversion
+	3099471949, // @s1mple66645
 ]);
 
 export async function createCommand(alias: string, handler: (player: Player, argument: string) => void) {

@@ -1,3 +1,4 @@
 std = "roblox"
 [lints]
 global_usage="allow"
+mismatched_arg_count="allow"
